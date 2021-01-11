@@ -649,6 +649,7 @@ class ComposerStaticInit56799010f6f2bdadf0885ab10b46362a
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'WrongBmiDataException' => __DIR__ . '/../..' . '/src/Exceptions/WrongBmiDataException.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

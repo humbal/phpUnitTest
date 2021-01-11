@@ -35,5 +35,4 @@ class EmailTest extends TestCase
         ];
 
     }
-    
 }
