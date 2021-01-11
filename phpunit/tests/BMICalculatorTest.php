@@ -41,6 +41,7 @@ class BMICalculatorTest extends TestCase {
         $result = $BMICalculator->calculate();
 
         $this->assertSame($expected, $result);
+        $this->assertEquals(BASEURL, 'http://phpunit.dd:8083/phpUnitTest/phpunit/');
     }
 
 }

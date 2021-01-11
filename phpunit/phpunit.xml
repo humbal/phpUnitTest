@@ -9,16 +9,26 @@
          beStrictAboutTodoAnnotatedTests="true"
          verbose="true"
          colors="true"
-         testdox="false"
+         testdox="true"
          >
     <testsuites>
         <testsuite name="default">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
+
         <testsuite name="BMI">
             <directory>tests/BMICalculatorTest.php</directory>
         </testsuite>
+
+        <testsuite name="Fixtures">
+            <directory>tests/Fixtures</directory>
+        </testsuite>
     </testsuites>
+
+    <php>
+        <const name="BASEURL" value="http://phpunit.dd:8083/phpUnitTest/phpunit/" />
+        <const name="HOST" value="127.0.0.1" />
+    </php>
 
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">

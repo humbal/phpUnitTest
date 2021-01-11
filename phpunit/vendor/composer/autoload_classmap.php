@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'BMICalculator' => $baseDir . '/src/BMICalculator.php',
+    'DatabaseTrait' => $baseDir . '/tests/traits/DatabaseTrait.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
     'PHPUnit\\Framework\\AssertionFailedError' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php',
@@ -581,6 +582,8 @@ return array(
     'SebastianBergmann\\Type\\UnknownType' => $vendorDir . '/sebastian/type/src/UnknownType.php',
     'SebastianBergmann\\Type\\VoidType' => $vendorDir . '/sebastian/type/src/VoidType.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
+    'ShopingCart' => $baseDir . '/src/ShopingCart.php',
+    'ShoppingCartFixtureTrait' => $baseDir . '/tests/traits/ShoppingCartFixtureTrait.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
     'TheSeer\\Tokenizer\\NamespaceUri' => $vendorDir . '/theseer/tokenizer/src/NamespaceUri.php',

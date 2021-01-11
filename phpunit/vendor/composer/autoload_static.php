@@ -66,6 +66,7 @@ class ComposerStaticInit56799010f6f2bdadf0885ab10b46362a
 
     public static $classMap = array (
         'BMICalculator' => __DIR__ . '/../..' . '/src/BMICalculator.php',
+        'DatabaseTrait' => __DIR__ . '/../..' . '/tests/traits/DatabaseTrait.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php',
@@ -640,6 +641,8 @@ class ComposerStaticInit56799010f6f2bdadf0885ab10b46362a
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'ShopingCart' => __DIR__ . '/../..' . '/src/ShopingCart.php',
+        'ShoppingCartFixtureTrait' => __DIR__ . '/../..' . '/tests/traits/ShoppingCartFixtureTrait.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
