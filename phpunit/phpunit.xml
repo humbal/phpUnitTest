@@ -7,10 +7,16 @@
          beStrictAboutCoversAnnotation="true"
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
-         verbose="true">
+         verbose="true"
+         colors="true"
+         testdox="false"
+         >
     <testsuites>
         <testsuite name="default">
             <directory suffix="Test.php">tests</directory>
+        </testsuite>
+        <testsuite name="BMI">
+            <directory>tests/BMICalculatorTest.php</directory>
         </testsuite>
     </testsuites>
 
